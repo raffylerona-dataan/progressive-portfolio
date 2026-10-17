@@ -325,3 +325,88 @@ body {
     background-color: #195d2f;
     transform: translateY(-2px);
 }
+
+
+/* EDUCATION AND EXPERIENCE SECTION */
+
+.experience {
+    padding: 80px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 32px;
+    color: #163020;
+    margin-bottom: 15px;
+}
+
+.experience-intro {
+    color: #4c6653;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+
+/* RESPONSIVE TABLE CONTAINER */
+
+.table-container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    overflow-x: auto;
+
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(34, 94, 54, 0.08);
+}
+
+
+/* TABLE DESIGN */
+
+.experience-table {
+    width: 100%;
+    min-width: 650px;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: white;
+}
+
+
+/* TABLE HEADERS */
+
+.experience-table th {
+    background-color: #267a40;
+    color: white;
+
+    padding: 18px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* TABLE DATA CELLS */
+
+.experience-table td {
+    padding: 18px 20px;
+
+    color: #163020;
+    font-size: 15px;
+    line-height: 1.6;
+
+    border-bottom: 1px solid #dff7e7;
+}
+
+
+/* ALTERNATING ROW COLORS */
+
+.experience-table tbody tr:nth-child(even) {
+    background-color: #f4fff7;
+}
+
+
+/* ROW HOVER EFFECT */
+
+.experience-table tbody tr:hover {
+    background-color: #dff7e7;
+}
